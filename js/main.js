@@ -1,5 +1,5 @@
 $(function() {
-
+  // Header Slider
   $('.header__slider').slick({
     infinite: true,
     fade: true,
@@ -8,6 +8,7 @@ $(function() {
     asNavFor: '.slider-dotshead'
   });
 
+  // Slider Dotshead
   $('.slider-dotshead').slick({
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -20,6 +21,7 @@ $(function() {
     ]
   });
 
+  // Surf Slider
   $('.surf-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -56,6 +58,7 @@ $(function() {
     ]
   });
 
+  // Slider Map
   $('.slider-map').slick({
     slidesToShow: 8,
     slidesToScroll: 1,
@@ -86,6 +89,7 @@ $(function() {
     ]
   });
 
+  // Holder Slider & Shop Slider
   $('.holder__slider, .shop__slider').slick({
     infinite: true,
     fade: true,
@@ -93,6 +97,7 @@ $(function() {
     nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg" alt="">'
   });
 
+  // Price Selector
   $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="img/plus.svg" alt=""></div><div class="quantity-button quantity-down"><img src="img/minus.svg" alt=""></div></div>').insertAfter('.quantity input');
   $('.quantity').each(function() {
     var spinner = $(this),
@@ -126,6 +131,7 @@ $(function() {
 
   });
 
+  // Price Quantity Buttons
   $('.quantity-button').on('click', function() {
     let sum = $('.nights').val() * $('.sum').data('nights') + ($('.guests').val() - 1) * $('.sum').data('guests');
   $('.sum').html('$' + sum);
@@ -134,15 +140,17 @@ $(function() {
   let sum = $('.nights').val() * $('.sum').data('nights') + ($('.guests').val() - 1) * $('.sum').data('guests');
   $('.sum').html('$' + sum);
 
-
+  // Surfboard Box Circle
   $('.surfboard-box__circle').on('click', function() {
     $(this).toggleClass('active')
   });
 
+  // Burger Menu
   $('.menu-btn').on('click', function() {
     $('.menu').toggleClass('active');
   });
 
+  // WOW library initialisation
   new WOW().init();
 
 });
