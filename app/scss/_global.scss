@@ -1,3 +1,4 @@
+/* --------- Common Styles --------- */
 html {
   box-sizing: border-box;
 }
@@ -32,11 +33,13 @@ li {
   padding: 0;
 }
 
+// Container
 .container {
   max-width: 1920px;
   margin: 0 auto;
 }
 
+// Headline Left
 .headline-left {
   font-size: 22px;
   line-height: 32px;
@@ -68,6 +71,7 @@ li {
   }
 }
 
+// Headline Right
 .headline-right {
   font-size: 22px;
   line-height: 32px;
@@ -90,6 +94,7 @@ li {
 
 }
 
+// Title
 .title {
 
   div {
@@ -127,6 +132,7 @@ li {
 
 }
 
+// Subtitle
 .subtitle {
   display: inline-block;
   text-align: right;
@@ -147,6 +153,7 @@ li {
 
 }
 
+// Descr
 .descr {
   display: inline-block;
   padding-left: 5px;
@@ -162,6 +169,7 @@ li {
   }
 }
 
+// Btn
 .btn {
   font-weight: 800;
   font-size: 40px;
@@ -198,6 +206,7 @@ li {
 
 }
 
+// Surf & Holder
 .surf,
 .holder {
   padding: 160px 0 120px;
@@ -208,6 +217,7 @@ li {
   margin-bottom: 35px;
 }
 
+// Price Selector
 .quantity {
   display: inline-block;
 }
