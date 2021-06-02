@@ -1,5 +1,6 @@
-/* --------- Max-Width 1440 --------- */
+/* --------- Max-Width 1440px --------- */
 @media (max-width: 1440px) {
+
   .header__title {
     font-size: 130px;
     line-height: 108px;
@@ -34,8 +35,9 @@
 
 }
 
-/* --------- Max-Width 1366 --------- */
+/* --------- Max-Width 1366px --------- */
 @media (max-width: 1366px) {
+
   .header__arrows {
     left: 20px;
     bottom: 20px;
@@ -94,8 +96,9 @@
 
 }
 
-/* --------- Max-Width 1340 --------- */
+/* --------- Max-Width 1340px --------- */
 @media (max-width: 1340px) {
+
   .header__map {
     svg {
       width: 500px;
@@ -111,10 +114,12 @@
   .slider-arrows__left {
     right: 60px;
   }
+
 }
 
-/* --------- Max-Width 1287 --------- */
+/* --------- Max-Width 1287px --------- */
 @media (max-width: 1287px) {
+
   .slider-map .slick-list {
     overflow: hidden;
   }
@@ -122,10 +127,12 @@
   .slider-dots__circle {
     box-shadow: none;
   }
+
 }
 
-/* --------- Max-Width 1250 --------- */
+/* --------- Max-Width 1250px --------- */
 @media (max-width: 1250px) {
+
   .slider-map {
     max-width: 1000px;
     min-height: 515px;
@@ -203,8 +210,9 @@
 
 }
 
-/* --------- Max-Width 1150 --------- */
+/* --------- Max-Width 1150px --------- */
 @media (max-width: 1150px) {
+
   .holder-slider__descr {
     padding: 160px 0 0 20px;
   }
@@ -215,8 +223,9 @@
 
 }
 
-/* --------- Max-Width 1102 --------- */
+/* --------- Max-Width 1102px --------- */
 @media (max-width: 1102px) {
+
   .slider-map {
     background-image: none;
     max-width: 100%;
@@ -267,11 +276,11 @@
     background: rgba(#ccc, 0.7);
   }
 
-
 }
 
-/* --------- Max-Width 1040 --------- */
+/* --------- Max-Width 1040px --------- */
 @media (max-width: 1040px) {
+
   .header__arrows {
     display: none;
   }
@@ -416,14 +425,16 @@
 
 }
 
-/* --------- Max-Width 960 --------- */
+/* --------- Max-Width 960px --------- */
 @media (max-width: 960px) {
+
   .slider-dotshead {
     display: none;
   }
+
 }
 
-/* --------- Max-Width 767 --------- */
+/* --------- Max-Width 767px --------- */
 @media (max-width: 767px) {
 
   .surfboard__position--1 {
@@ -452,7 +463,7 @@
 
 }
 
-/* --------- Max-Width 720 --------- */
+/* --------- Max-Width 720px --------- */
 @media (max-width: 720px) {
 
   .title {
@@ -483,7 +494,7 @@
 
 }
 
-/* --------- Max-Width 680 --------- */
+/* --------- Max-Width 680px --------- */
 @media (max-width: 680px) {
 
   .shop__slider-content {
@@ -506,7 +517,7 @@
 
 }
 
-/* --------- Max-Width 640 --------- */
+/* --------- Max-Width 640px --------- */
 @media (max-width: 640px) {
 
   .btn {
@@ -521,7 +532,7 @@
 
 }
 
-/* --------- Max-Width 520 --------- */
+/* --------- Max-Width 520px --------- */
 @media (max-width: 520px) {
 
   .headline-left {
@@ -539,7 +550,7 @@
 
 }
 
-/* --------- Max-Width 460 --------- */
+/* --------- Max-Width 460px --------- */
 @media (max-width: 460px) {
 
   .header__title {
@@ -588,8 +599,9 @@
 
 }
 
-/* --------- Max-Width 425 --------- */
+/* --------- Max-Width 425px --------- */
 @media (max-width: 425px) {
+
   .slider-map .slider-dots__content,
   .slider-map .slick-current .slider-dots__content {
     width: 250px;
@@ -607,8 +619,9 @@
 
 }
 
-/* --------- Max-Width 374 --------- */
+/* --------- Max-Width 374px --------- */
 @media (max-width: 374px) {
+
   .slider-map .slider-dots__content,
   .slider-map .slick-current .slider-dots__content {
     width: 200px;
