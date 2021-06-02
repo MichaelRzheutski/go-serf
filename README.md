@@ -1,6 +1,6 @@
 # Go-Serf
 
-![Go-Serf - Entire-Page](Go-Serf.png)
+![Go-Serf - Entire-Page](Go-Serf.jpg)
 
 Адаптивная вёрстка шаблона **Go-Serf**.
 
